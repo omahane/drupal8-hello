@@ -4,3 +4,10 @@ hello:
     _controller: '\Drupal\hello\Controller\HelloController::sayhello'
   requirements:
     _permission: 'access content'
+
+welcome:
+  path: 'welcome'
+  defaults:
+    _controller: '\Drupal\hello\Controller\HelloController::welcome'
+  requirements:
+    _permission: 'access content'
